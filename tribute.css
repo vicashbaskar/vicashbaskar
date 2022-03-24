@@ -1,0 +1,92 @@
+p{
+    background-color: lightgray;
+    border: 15px solid green;
+    width: 300px;
+    height: 100px;
+    padding: 50px;
+    margin: 20px;
+    outline: 5px solid black;
+    text-align: justify;
+    text-align-last: justify;
+    text-indent: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-spacing: 10px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    
+}
+.mass {
+    text-align: center;
+    
+    
+    
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    
+}
+a:hover,a:link {
+    color:pink;
+    background-color: aqua;
+    padding:14px 25px ;
+    text-align: center;
+    display: inline-block;
+    cursor: progress;
+
+}
+ul{
+    background-color: blue;
+    padding: 20px;
+
+}
+ul li{
+    background-color: lightblue;
+    color: darkblue;
+    margin: 5px;
+}
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+
+}
+#customers td,#customers th{
+    border: 1px solid black;
+    padding: 8px;
+}
+
+
+
+#customers th{
+ padding-top: 5px;
+ padding-bottom: 5px;
+ text-align: left;
+ background-color: green;
+ color: white;
+}
+.static{
+
+    
+    
+    top: 0 ;
+    padding: 5px;
+
+    border:3px solid green;
+    
+}
+.ll{
+    width: 500px;
+    position: absolute;
+    right: 50px;
+    opacity: 0.6;
+
+}
+.kk{
+    width: 150px;
+    position: absolute;
+    right: 300px;
+    z-index: 2;
+    
+    
+}

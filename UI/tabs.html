@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabs</title>
+    <link  rel="stylesheet" href="tabs.css">
+
+</head>
+<body>
+   <h1>Tabs</h1> 
+   <div class="tab">
+       <button id="tablinks" onclick="openCity(event,'London')" class="defaultopen">London </button>
+       <button id="tablinks" onclick="openCity(event,'Paris')">Paris </button>
+       <button id="tablinks" onclick="openCity(event,'Tokyo')">Tokyo </button>
+   </div>
+   <div id="London" class="tabcontent">
+       <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+       <h3>London</h3>
+       <p>London is a capital city of England</p>
+
+   </div>
+   <div id="Paris" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+    <h3>Paris</h3>
+    <p>Paris is a capital city of France</p>
+
+</div>
+
+<div id="Tokyo" class="tabcontent">
+    <span onclick="this.parentElement.style.display='none'" class="topright">&times</span>
+    <h3>Tokyo</h3>
+    <p>Tokyo is a capital city of Japan</p>
+
+</div>
+<script type="text/javascript" src="tabs.js"></script>
+
+</body>
+</html>

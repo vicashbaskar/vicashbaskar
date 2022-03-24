@@ -1,0 +1,50 @@
+div{
+    width: 450px;
+    height: 250px;
+    background-color: rgb(166, 171, 192);
+    justify-content: center;
+    outline: 2px;
+    overflow: hidden;
+    margin-top: 12%;
+
+    
+    
+}
+body{
+    justify-content: center;
+    display:flex;
+}
+#header{
+color: rgb(12, 8, 1);
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+text-align:  center;
+
+}
+
+form{
+    text-align: center;
+    font-size: 17px;
+    
+    
+}
+#space{
+    text-align: center;
+}
+    
+#password{
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+
+#submit{
+    
+    background-color: rgb(31, 61, 160);
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+
+
+}

@@ -1,0 +1,32 @@
+.acco{
+    width: 100%;
+    padding: 30px;
+    font-size: 22px;
+    text-align: left;
+    background-color: aqua;
+    cursor: pointer;
+
+    border: none;
+    outline: none;
+    transition: 0.4s;
+
+}
+.active,.acco:hover{
+    background-color: aquamarine;
+
+}
+.acco::after{
+    content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right ;
+  margin-left: 5px;
+}
+
+
+.panel{
+    display: none;
+    padding: 0 18px;
+    overflow: hidden;
+    background-color: white;
+}
